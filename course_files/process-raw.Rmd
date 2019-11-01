@@ -101,7 +101,7 @@ samtools view -b -h -T reference_genome.fasta file.cram -o file.bam
 samtools view -C -h -T reference_genome.fasta file.bam -o file.cram
 ```
 
-### Mannually Inspecting files
+### Manually Inspecting files
 
 At times it may be useful to mannual inspect files for example to check the metadata in headers that the files 
 are from the correct sample. 'less' and 'more' can be used to inspect any text files from the command line.
